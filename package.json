@@ -1,0 +1,13 @@
+{
+  "name": "trabgraf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && cd dist && node index.js"
+  },
+  "dependencies": {
+    "typescript": "^2.5.3"
+  }
+}
